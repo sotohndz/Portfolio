@@ -90,17 +90,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soto821/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
