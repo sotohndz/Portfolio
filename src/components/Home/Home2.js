@@ -25,7 +25,7 @@ function Home2() {
               </i>{" "}
               with expertise in{" "}
               <i>
-                <b className="purple">Ruby on Rails, Django and Node.js</b>
+                <b className="purple">React, Typescript, Golang and Node.js</b>
               </i>
               .
               <br />
