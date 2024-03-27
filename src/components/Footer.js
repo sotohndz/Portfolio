@@ -1,11 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {Container, Row, Col} from "react-bootstrap";
+import {AiFillGithub} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -23,8 +19,8 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soto821"
-                style={{ color: "white" }}
+                href="https://github.com/sotohndz"
+                style={{color: "white"}}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,32 +29,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/sotohernandez821"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soto-hernandez00/"
-                style={{ color: "white" }}
+                href="https://www.linkedin.com/in/soto-hernandez00"
+                style={{color: "white"}}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/sotohernandez821"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>

@@ -1,13 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -15,7 +11,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{fontSize: "2.6em"}}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -66,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soto821"
+                  href="https://github.com/sotohndz"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
